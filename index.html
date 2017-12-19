@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class practiec day-13</title>
+    <link  rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <form action=" " method="post" id="registrationForm">
+      <table>
+          <tr>
+              <th>First Name</th>
+              <td>
+                  <input type="text" id="firstName" name="first_name" class="form-control">
+                    <span id="firstNameError" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th>Last Name</th>
+              <td><input type="text" id="lastName" name="last_name" class="form-control">
+                  <span id="lastNameError" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th>Gender</th>
+              <td>
+                  <input type="radio" name="gender" value="Male">Male
+                  <input type="radio" name="gender" value="Female"> Female
+                  <span id="genderError" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th>Email Address</th>
+              <td><input type="email" id="emailAddress" name="email_address" class="form-control">
+                  <span id="emailError" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th>Password</th>
+              <td><input type="password" id="Password" class="form-control">
+                  <span id="passwordError" class="text-danger"></span>
+              </td>
+          </tr>
+
+          <tr>
+              <th>Show Hide</th>
+              <td><input type="checkbox" id="checkbox"></td>
+          </tr>
+
+          <tr>
+              <th>Confirm Password</th>
+              <td><input type="password" id="confirmPassword" class="form-control">
+                  <span id="confirmPasswordError" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th>District Name</th>
+              <td>
+                  <select name="district_name" id="districtName" class="form-control">
+                      <option value=" "><---Select District Name---></option>
+                      <option value="Dhaka">Dhaka</option>
+                      <option value="khulna">Khulna</option>
+                      <option value="Savar">Savar</option>
+                      <option value="Maymansing"> Maymansing</option>
+                  </select>
+                  <span id="districtNameErro" class="text-danger"></span>
+              </td>
+          </tr>
+          <tr>
+              <th></th>
+              <td><input type="button" class="form-control btn btn-success" id="btn" value="Submit"></td>
+          </tr>
+      </table>
+
+
+  </form>
+
+
+<script src="js/jquery.js"></script>
+<!--<script src="js/popper.js"></script>-->
+<!--<script src="js/bootstrap.min.js"></script>-->
+<script src="js/myScript.js"></script>
+</body>
+</html>
